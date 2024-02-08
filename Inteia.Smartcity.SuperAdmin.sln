@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Inteia.Smartcity.SuperAdmin", "Inteia.Smartcity.SuperAdmin", "{3F169208-5CA5-476F-81AA-F378D0D8BCF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{83D8102F-E3CE-4762-834B-20D45D16A33F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperAdmin.Api", "SuperAdmin.Api\SuperAdmin.Api.csproj", "{9FB0F269-9410-4C2C-9902-504240939D1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperAdmin.Domain", "SuperAdmin.Domain\SuperAdmin.Domain.csproj", "{79C9EB1E-44B6-4CA3-987C-4DF35BEBDB25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperAdmin.Application", "SuperAdmin.Application\SuperAdmin.Application.csproj", "{CC74E320-95B5-466E-8D35-C4EDBFFE5B7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperAdmin.Infrastructure", "SuperAdmin.Infrastructure\SuperAdmin.Infrastructure.csproj", "{6EC17CC8-4D3D-4E45-A69E-D1131DA5E20F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FB0F269-9410-4C2C-9902-504240939D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FB0F269-9410-4C2C-9902-504240939D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FB0F269-9410-4C2C-9902-504240939D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FB0F269-9410-4C2C-9902-504240939D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79C9EB1E-44B6-4CA3-987C-4DF35BEBDB25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C9EB1E-44B6-4CA3-987C-4DF35BEBDB25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C9EB1E-44B6-4CA3-987C-4DF35BEBDB25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C9EB1E-44B6-4CA3-987C-4DF35BEBDB25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC74E320-95B5-466E-8D35-C4EDBFFE5B7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC74E320-95B5-466E-8D35-C4EDBFFE5B7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC74E320-95B5-466E-8D35-C4EDBFFE5B7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC74E320-95B5-466E-8D35-C4EDBFFE5B7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EC17CC8-4D3D-4E45-A69E-D1131DA5E20F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EC17CC8-4D3D-4E45-A69E-D1131DA5E20F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EC17CC8-4D3D-4E45-A69E-D1131DA5E20F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EC17CC8-4D3D-4E45-A69E-D1131DA5E20F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{83D8102F-E3CE-4762-834B-20D45D16A33F} = {3F169208-5CA5-476F-81AA-F378D0D8BCF6}
+		{9FB0F269-9410-4C2C-9902-504240939D1D} = {83D8102F-E3CE-4762-834B-20D45D16A33F}
+		{79C9EB1E-44B6-4CA3-987C-4DF35BEBDB25} = {83D8102F-E3CE-4762-834B-20D45D16A33F}
+		{CC74E320-95B5-466E-8D35-C4EDBFFE5B7C} = {83D8102F-E3CE-4762-834B-20D45D16A33F}
+		{6EC17CC8-4D3D-4E45-A69E-D1131DA5E20F} = {83D8102F-E3CE-4762-834B-20D45D16A33F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CEE750D-44C9-4919-9E00-5B310589F29A}
+	EndGlobalSection
+EndGlobal
